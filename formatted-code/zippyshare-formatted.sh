@@ -1,5 +1,5 @@
 #!/bin/sh
-# ZippyShare download script v4 - prettified version
+# ZippyShare download script v4.1 - prettified version
 # For studying and better code comprehension. Even though it works just as well.
 while read url;
 do 
