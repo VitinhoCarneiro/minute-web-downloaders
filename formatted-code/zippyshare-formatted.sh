@@ -27,7 +27,7 @@ do
 		# of d, and the constant 5/5, which are always the same for every page.
 
 		# Append the URL resource indicator to the URL's domain name
-		xargs -n1 printf "$(echo $url | sed 's/http\:\/\/\(www[0-9]*[.]zippyshare[.]com\).*/\1/gm')%s" | 
+		xargs -n1 printf "$(echo $url | sed 's/http[s]\?\:\/\/\(www[0-9]*[.]zippyshare[.]com\).*/\1/gm')%s" | 
 		
 		xargs -n1 wget;
 done
